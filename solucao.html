@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/pngkey.com-graduate-hat-png-3994652.png">
+
+    <title> Kelvin Produções </title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- custom js file link  -->
+    <script src="js/script.js" defer></script>
+
+    <!-- arquivo js que programa os bts da pessoa interativa -->
+    <script src = "js/solucao.js"> </script>
+
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<div id="menu-btn" class="fas fa-bars"></div>
+<header class="header">
+    <a href="index.html"><img id="imgheader" src="Kelvin Imagens/Design sem nome (1).png" alt="logo"></a>
+    
+    <a href="index.html" class="logo"> Kelvin Produções </a>
+
+    <nav class="navbar">
+        <a href="index.html"> <i class="fas fa-angle-right"></i> Início </a>
+        <a href="#category"> <i class="fas fa-angle-right"></i> Carreira  </a> 
+        <a href="contact.html"> <i class="fas fa-angle-right"></i> Contato </a>
+    </nav>
+
+
+</header>
+
+<!-- header section ends -->
+
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <div class="image">
+        <img src="images/apontando.png" alt="">
+    </div>
+
+    <div class="content">
+        <span> Busca por ajuda? </span>
+
+        <h3> Tire suas dúvidas com a gente que responderemos por email ou whatsapp
+        </h3>
+   
+        <div id = "bts"> 
+            <fieldset class="formulario">
+            <form method="post" action="envio.php">
+                <label>Nome:</label>
+                <div class="bordermsg"
+                <input class="nome" type="text" name="nome">
+                <textarea class="msg" cols="35" rows="1"></textarea>
+                </div>
+                <label>Email:</label>
+                <div class="bordermsg"
+                <input class="email" type="text" name="email">
+                <textarea class="msg" cols="35" rows="1"></textarea>
+                </div>               
+                <label>Cidade:</label>
+                <div class="bordermsg"
+                <input class="cidade" type="text" name="cidade">
+                <textarea class="msg" cols="35" rows="1"></textarea>
+                </div>
+                <label>Mensagem:</label></br>
+                <div class="bordermsg">
+                    <textarea class="msg" cols="35" rows="8"></textarea></label>
+                </div>
+                <input class="bnt_submit" type="submit" value="Enviar" name="mensagem">
+                </form>
+                
+            </fieldset>
+        </div>
+   
+
+        
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+
+
+</body>
+</html>
